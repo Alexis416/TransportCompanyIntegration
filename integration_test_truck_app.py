@@ -172,7 +172,7 @@ class TestGUIIntegration(unittest.TestCase):
         if self.root:
             self.root.destroy()
 
-    def test_gui_and_manager_integration(self):
+    def test_6_gui_and_manager_integration(self):
         app = TruckManagementApp()
 
         # Проверяем, что TransportManager был создан
